@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(22, 0, 26, 0.886);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    list-style: none;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+ul li {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    opacity: 0.8;
+}
+
+ul li.active {
+    opacity: 1;
+    box-shadow: 0 0 5px;
+}
+
+div.result {
+    max-width: 500px;
+    height: 300px;
+    margin: auto;
+}
